@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:weightSum="1"
+        tools:context="id.sch.smktelkom_mlg.tugas01.xiirpl4039.bimbel.MainActivity">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="174dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.45"
+            android:src="@drawable/idea" />
+
+        <TextView
+            style="@style/Base.TextAppearance.AppCompat.Title"
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="\nPendaftaran Bimbel Cerdas SMA\n"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/editTextnama"
+            android:layout_width="294dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black" />
+
+
+        <TextView
+            android:id="@+id/textalmt"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/editTextalmt"
+            android:layout_width="294dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/texttlp"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No. Tlp"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/editTexttlp"
+            android:layout_width="294dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paket Kelas"
+            android:textColor="@android:color/black" />
+
+        <Spinner
+            android:id="@+id/spinnerkelas"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/white"
+            android:entries="@array/kelas" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin"
+            android:textColor="@android:color/black" />
+
+        <RadioGroup
+            android:id="@+id/radiogroupjk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButtonl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Laki-Laki"
+                android:textColor="@android:color/black" />
+
+            <RadioButton
+                android:id="@+id/radioButtonp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Perempuan"
+                android:textColor="@android:color/black" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Mapel"
+            android:textColor="@android:color/black" />
+
+        <CheckBox
+            android:id="@+id/checkBoxbskt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Matematika"
+            android:textColor="@android:color/black" />
+
+        <CheckBox
+            android:id="@+id/checkBoxps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Bahasa Indonesia"
+            android:textColor="@android:color/black" />
+
+        <CheckBox
+            android:id="@+id/checkBoxfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Bahasa Inggris"
+            android:textColor="@android:color/black" />
+
+        <CheckBox
+            android:id="@+id/checkBoxpr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="IPA"
+            android:textColor="@android:color/black" />
+
+        <CheckBox
+            android:id="@+id/checkBoxtfsr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Kejuruan SMK"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/buttonok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="DAFTAR"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/textViewhasil"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.52"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            tools:text="Hasil" />
+    </LinearLayout>
+</ScrollView>

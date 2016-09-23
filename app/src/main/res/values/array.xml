@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="kelas">
+        <item>X Semester 1</item>
+        <item>X Semester 2</item>
+        <item>XI Semester 1</item>
+        <item>XI Semester 2</item>
+        <item>XII Semester 1</item>
+        <item>XII Semester 2</item>
+    </string-array>
+</resources>
